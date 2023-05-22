@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 1st Project -->
+    <h2>First Form</h2>
+    <form action="">
+        <fieldset>
+            <legend><h3>Project 1</h3></legend>
+
+            <h1>Event Registration</h1>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="mail">Email:</label><br>
+            <input type="email" id="mail" name="e-mail">
+            <br>
+            <br>
+            <label for="phone_number">Phone:</label><br>
+            <input type="tel" id="phone_number" name="phone">
+
+            <br>
+            <br>
+            <label for="work">Occupation:</label><br>
+            <select name="occupation" id="work">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Topic of Interest:</legend>
+
+                <input type="checkbox" id="css" name="interest">
+                <label for="css">CSS</label>
+                <br>
+                <input type="checkbox" id="html" name="interest">
+                <label for="html">HTML</label>
+                <br>
+                <input type="checkbox" id="js" name="interest">
+                <label for="js">Javascript</label>
+            </fieldset>
+            <br>
+            <br>
+            <label for="textarea">Comments:</label><br>
+            <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+            <button>Register</button>
+        </fieldset>
+    </form>
+
+    <!-- 2nd Project -->
+    <h2>Second Form</h2>
+    <form action="">
+        <fieldset>
+            <legend><h3>Project 2</h3></legend>
+
+            <h1>Job Application</h1>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="mail">Email:</label><br>
+            <input type="email" id="mail" name="e-mail">
+            <br>
+            <br>
+            <label for="phone_number">Phone:</label><br>
+            <input type="tel" id="phone_number" name="phone">
+            <br>
+            <br>
+            <label for="resume">Resume:</label><br>
+            <input type="file" name="resume" id="resume">
+            <br>
+            <br>
+            <label for="experience">Experience(in Years):</label><br>
+            <input type="number" id="experience" name="experience" min="0" max="50">
+            <br>
+            <br>
+            <fieldset>
+                <legend>Skills:</legend>
+
+                <input type="checkbox" id="css" name="interest">
+                <label for="css">CSS</label>
+                <br>
+                <input type="checkbox" id="html" name="interest">
+                <label for="html">HTML</label>
+                <br>
+                <input type="checkbox" id="js" name="interest">
+                <label for="js">Javascript</label>
+            </fieldset>
+            <br>
+            <br>
+            <label for="dropdown">Highest Education:</label><br>
+            <select name="dropdown" id="dropdown">
+                <option value="high school">High School</option>
+                <option value="associate degree">Associate's Degree</option>
+                <option value="bachelor degree">Bachelor's Degree</option>
+                <option value="master degree">Master's Degree</option>
+                <option value="phd">PhD</option>
+            </select>
+            <br>
+            <br>
+            <fieldset>
+            <legend>Availability:</legend>
+            <input type="radio" id="time" name="availability" value="full-time">
+            <label for="time">Full-Time</label>
+            <br>
+            <input type="radio" id="kabhi-kabhi" name="availability" value="part-time">
+            <label for="kabhi-kabhi">Part-Time</label>
+        </fieldset>
+
+
+            
+            <br>
+            <br>
+            <label for="textarea">Additional Comments:</label><br>
+            <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea><br>
+
+            <button>Submit Application</button>
+            <br>
+            <br>
+            <input type="submit" value="Submit Application">
+        </fieldset>
+    </form>
+
+    <!-- 3rd Project -->
+    <h2>Third Form</h2>
+
+    <form action="">
+        <h1>Complex Form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name" required>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="email">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="mobile" >
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="janmtarikh">
+            <h4 style="display: inline;">Gender</h4>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            
+            <label for="desh">Country</label>
+            <select name="desh" id="desh">
+                <option value="bharat">India</option>
+                <option value="america">United States</option>
+            </select>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>
+                <label for="pata">Address Street</label>
+                <input type="text" id="pata" name="address">
+                <label for="shahar">City</label>
+                <input type="text" id="shahar" name="city">
+                <label for="rajya">State</label>
+                <input type="text" id="rajya" name="state">
+                <label for="pin">Zip Code</label>
+                <input type="number" id="pin" name="zip">
+            </legend>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="textarea">comments</label><br>
+            <textarea name="comments" id="textarea" cols="30" rows="5"></textarea>
+            <br>
+            <br>
+            <label for="agree">I agree to the terms of service</label>
+            <input type="checkbox" id="agree" name="agree">
+
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
