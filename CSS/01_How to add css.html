@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="02_cssFile.css">
+
+    <style>
+        /*  h1 is known as selector
+            color is known as properties 
+            green is known as value */
+        h1 {
+            color: green;
+        }
+
+
+        /* if inline css & internal css are performed on same selector, and properties with diferent values
+        than inline css will having pririty of execution firstly
+        
+        if we want to apply intenal css forcefully we can use !important*/
+        p {
+            background-color: fuchsia;
+        }
+
+        #a {
+            color: royalblue;
+        }
+
+        .chord {
+            color: chartreuse;
+        }
+
+        p,
+        article
+        {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome To My World</h1>
+
+    <h1 id="a">Let's Learn</h1>
+
+
+    <!--  Inline CSS -->
+    <p style="background-color: yellow;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, veniam soluta.
+        Facilis iure optio asperiores
+        quia reprehenderit aspernatur suscipit consequuntur nihil ratione odit accusantium corporis fugit, aut sapiente
+        amet tempore.</p>
+    <p style="background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consequatur, labore,
+        delectus deserunt maiores
+        placeat iure nisi totam tempora, aliquam vero. Maiores quo ducimus corporis error nemo facere dolore incidunt.
+    </p>
+    <p style="background-color: darkorange;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores,
+        omnis neque nesciunt quibusdam eaque,
+        officiis inventore numquam esse alias aliquam beatae eligendi asperiores, dolorem earum enim temporibus a
+        dignissimos.</p>
+
+    <article class="chord">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint, facilis repellat nulla, sed odio ut
+        necessitatibus, maxime fugiat iusto animi? Blanditiis aperiam, rem nemo vero eius cumque officiis voluptas.
+    </article>
+
+    <pre
+        class="chord">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio, ullam dolore, obcaecati eveniet atque voluptatem amet exercitationem, aut voluptate ad! Odio sequi tempora natus facilis atque consectetur nobis aliquid.
+    </pre>
+
+    <h2 class="chord">Good Bye</h2>
+
+    <footer>Hello, I am footer....</footer>
+</body>
+
+</html>
