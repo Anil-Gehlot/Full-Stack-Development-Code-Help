@@ -1,27 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <!-- unordered lists -->
-    <ul>
-        <li>Maggi</li>
-        <li>Kurkure</li>
-        <li>Lays</li>
-    </ul>
-
-    <br>
-    <!--  ordered list -->
+  </head>
+  <body>
+    <h1>There are 3 kinds of lists:</h1>
     <ol>
-        <li>Coffe</li>
-        <li>Tea</li>
-        <li>Water</li>
+      <b>
+        <li>Ordered Lists.</li>
+        <li>Unordered Lists.</li>
+        <li>Description List.</li>
+      </b>
     </ol>
 
-    
-</body>
+
+    <!--  ordered list -->
+    <h1>1. Ordered Lists</h1>
+
+    <ol>
+      <li>Maggi</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ol>
+
+    <h4>type="1": The item list will be numbered with numbers (default).</h4>
+    <ol type="1">
+      <li>Maggi</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ol>
+
+    <h4>type="A": The item list will be numbered with uppercase letters.</h4>
+    <ol type="A">
+      <li>Maggi</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ol>
+
+    <h4>type="a": The item list will be numbered with lowercase letters.</h4>
+    <ol type="a">
+      <li>Maggi</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ol>
+
+    <h4>
+      type="I": The item list will be numbered with uppercase roman letters.
+    </h4>
+    <ol type="I">
+      <li>Maggi</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ol>
+
+    <h4>
+      type="i": The item list will be numbered with lowercase roman letters.
+    </h4>
+    <ol type="i">
+      <li>Maggi</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ol>
+
+    <h4>
+      start ="25": By default list starts with 1. if we want to start with
+      specified numbers we can specify in "start" attribute. <br />
+      Start is only allowed for numbers.
+    </h4>
+    <ol start="25">
+      <li>Maggi</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ol>
+
+    <h4>style="list-style-type: disc ; To make unordered list by ol tag.</h4>
+    <ol style="list-style-type: disc">
+      <li>Maggi</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ol>
+
+    <br />
+
+    <h1>2. Unordered Lists</h1>
+
+    <!-- unordered lists -->
+    <!-- li stands for list items. -->
+
+    <ul>
+      <li>cofee</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ul>
+
+    <h4>disc: Sets the list item marker to a bullet (Default).</h4>
+
+    <ul style="list-style-type: disc">
+      <li>cofee</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ul>
+
+    <h4>circle: Sets the list item marker to a circle.</h4>
+
+    <ul style="list-style-type: circle">
+      <li>cofee</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ul>
+
+    <h4>square: Sets the list item marker to a square.</h4>
+
+    <ul style="list-style-type: square">
+      <li>cofee</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ul>
+
+    <h4>None: The list item will not be marked.</h4>
+
+    <ul style="list-style-type: none">
+      <li>cofee</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ul>
+
+    <h4>
+      decimal: The list item will be marked with numbers(as ordered list.).
+    </h4>
+
+    <ul style="list-style-type: decimal">
+      <li>cofee</li>
+      <li>Kurkure</li>
+      <li>Lays</li>
+    </ul>
+
+    <br />
+
+    <h1>3. Description Lists</h1>
+    <p>
+      <b>Description list is a list of terms, with a description of each terms.</b>
+    </p>
+    <br />
+
+    <!-- Description list -->
+    <!-- dt defines a term in a description list. -->
+    <!-- dd describe a term in a description list. -->
+    <dl>
+      <dt>cofee</dt>
+      <dd>black and hot drink</dd>
+
+      <dt>milk</dt>
+      <dd>white cold drink</dd>
+    </dl>
+  </body>
 </html>
