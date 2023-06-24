@@ -1,0 +1,135 @@
+<!-- 
+    There are 3 types of unit:
+    1.  Absolute unit.
+    2.  Percentage unit.
+    3.  Relative unit.
+        i.  Relative to font size.
+       ii.  Relative to viewport or document.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        /* absolute units */
+        border: 2px solid black;
+        width: 15cm;
+        height: 4in;
+        margin: 4mm;
+      }
+
+      #div0 {
+        border: 1px solid black;
+        width: 100%;
+        height: 4in;
+        box-sizing: border-box;
+      }
+
+      #div1 {
+        /* Pecentage unit: Related to parent. */
+        width: 50%;
+        height: 25%;
+      }
+      #div3 {
+        font-size: 10px;
+        padding: 200px;
+        box-sizing: border-box;
+      }
+
+      #div4 {
+        /* relative to font size of parent */
+        /* 1em = 1 * parent font size */
+        font-size: 2em;
+      }
+
+      /* relative to viewport 
+            1vw = (1/100) * width of viewport
+            1vh = (1/100) * height of viewport
+      
+      */
+      #para {
+        width: 50vw;
+        height: 50vh;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nam
+      incidunt laudantium, laborum expedita eveniet, aut fugiat ullam molestias
+      sunt, ipsam minus! In corrupti saepe id eos cumque aut quae?
+    </p>
+
+    <div id="div0">
+      <div id="div1" style="background-color: aqua">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        veritatis molestiae! Dolores autem nisi odio quisquam, soluta iure
+        voluptatibus rerum necessitatibus excepturi aspernatur sapiente sit,
+        porro reprehenderit culpa placeat veniam tempora vel consequuntur id
+        adipisci quaerat magnam. Eaque reprehenderit culpa nostrum assumenda
+        ratione maiores odit magnam, cumque quibusdam inventore, sint nam
+        pariatur quaerat dolores temporibus doloremque accusamus illo quod
+        facere enim. Quas alias enim sunt ducimus molestiae, cumque corporis
+        porro minima ratione explicabo voluptas quod quibusdam repellat
+        similique! Deleniti commodi temporibus dolorum maxime quas ea, aperiam,
+        enim explicabo beatae fugiat provident velit distinctio nemo sint magnam
+        cupiditate accusantium odit tenetur excepturi quam aliquid adipisci!
+        Dolorem veritatis totam aliquid consequatur atque voluptatem excepturi
+        architecto consectetur culpa doloribus laudantium et, minima
+        necessitatibus corporis voluptates omnis eaque voluptatum ipsam
+        aspernatur eum laboriosam! Cumque eveniet optio ratione, facilis ducimus
+        enim! Ex facilis nam similique alias at iste ad repellendus nobis
+        consequatur id in, eum eos, expedita beatae ab incidunt temporibus.
+        Laborum ducimus adipisci nulla autem ratione quos mollitia sapiente
+        totam sit incidunt, sint enim expedita obcaecati numquam corrupti
+        minima. Recusandae voluptates doloribus quibusdam tempore placeat nulla
+        molestiae saepe magni sint veniam aut repellat soluta excepturi eos
+        similique, libero aspernatur non fugit illum illo vel iusto natus minus?
+        Earum, eos? Consequatur, possimus inventore enim veritatis voluptatem
+        ipsa similique perferendis excepturi consectetur ducimus quos quisquam
+        aliquam facere sed ut blanditiis dolor quibusdam sit debitis vitae
+        laboriosam sint cupiditate. Dolor, nostrum accusamus suscipit, ab libero
+        tenetur explicabo laboriosam, nulla officiis aut doloribus quisquam!
+        Inventore ab totam aut unde possimus provident, dolorum id vitae earum
+        distinctio delectus vero illo? Accusamus dignissimos, ratione nulla
+        perferendis doloribus exercitationem. Illum animi laudantium facere illo
+        voluptatibus sequi doloribus reiciendis cumque obcaecati veritatis ipsum
+        autem, atque debitis nesciunt, asperiores officia? Deserunt magni natus
+        nemo aspernatur iusto, placeat ratione, totam dolore, itaque obcaecati
+        eius!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        repudiandae beatae, soluta deleniti expedita numquam quidem sapiente et
+        iste vitae dolor pariatur aliquam omnis, incidunt voluptas repellat
+        eveniet vel eligendi.
+      </div>
+    </div>
+
+    <div id="div3">
+      <div id="div4">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
+        porro officia sequi nam repellat expedita hic illum vel, totam fugit
+        voluptate voluptas mollitia blanditiis sapiente explicabo? Eos officiis
+        libero animi!
+      </div>
+
+      <!-- 1 rem = 1 * root element font size(<html>) -->
+      <div id="div5" style="font-size: 1rem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rerum ea
+        amet omnis voluptatibus! Facilis quae nulla unde aut amet voluptate,
+        inventore veniam saepe officia nihil sapiente pariatur vel placeat.
+      </div>
+    </div>
+
+    <p id="para">
+      ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam ex.
+      Similique temporibus, quas aspernatur repellendus ea odit labore sit
+      excepturi adipisci, et quos minus expedita incidunt eaque obcaecati
+      distinctio. Ea facere hic molestiae non soluta doloremque obcaecati quo.
+      Illo repudiandae officia molestias adipisci minus voluptatem hic commodi
+      corporis inventore!
+    </p>
+  </body>
+</html>
