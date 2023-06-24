@@ -1,0 +1,112 @@
+
+
+<!-- 
+    Specificity Hierarchy
+
+Every CSS selector has its place in the specificity hierarchy.
+
+There are four categories which define the specificity level of a selector:
+
+1.  Inline styles - Example: <h1 style="color: pink;">
+2.  IDs - Example: #navbar
+3.  Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+4.  Elements and pseudo-elements - Example: h1, ::before
+
+
+Note: Inline style is always given the highest priority!
+Note 2: There is one exception to this rule: if you use the !important rule, it will even override inline styles!
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+
+    <style>
+
+        
+        
+
+        
+
+        .a_class{
+            color: yellow;
+        }
+        p{
+            color: green !important;
+        }
+        #b_id{
+            color: aqua;
+        }
+
+        p:hover{
+            color: #000;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <p class="a_class" id="b_id">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+      reprehenderit magnam voluptatum illo, minima porro possimus id enim
+      cupiditate nemo harum repellat deleniti perspiciatis velit? Nesciunt
+      delectus eaque quod maxime minima tempora est cum ex id exercitationem.
+      Vitae, ab delectus. Eaque voluptatum facilis cumque dolore. Atque itaque
+      tempore natus officiis? Obcaecati beatae quaerat reiciendis nulla quae
+      nihil praesentium est odio maiores? Eaque natus illo atque eum laudantium
+      iure nihil cum quis, at et impedit culpa beatae quidem quod dolorum dolor
+      quisquam accusantium ducimus odit. Cum ipsum sint voluptas mollitia,
+      architecto incidunt ipsa exercitationem velit quisquam labore, omnis
+      blanditiis similique facilis eius officia possimus. Eum nihil obcaecati
+      voluptates distinctio ea, consequuntur similique quod, dolorem expedita
+      architecto alias doloribus velit modi et iure quidem. Excepturi libero
+      dolores facere quisquam ratione, repudiandae distinctio quos quibusdam,
+      mollitia praesentium delectus blanditiis temporibus aperiam suscipit velit
+      dolor. Ad unde placeat similique cupiditate laudantium asperiores hic
+      veniam quis praesentium facere! Explicabo magnam aut hic, sapiente
+      recusandae perferendis ex ut voluptas deleniti tempore omnis! Sed iste
+      officia odit ullam dignissimos maxime ipsa culpa eveniet reprehenderit, ex
+      aspernatur quod nemo hic facilis amet rerum atque aperiam itaque illum
+      consequatur sit explicabo laborum cupiditate libero? Optio praesentium
+      officiis laborum corporis quod magni neque vel fugiat corrupti autem totam
+      architecto hic unde, saepe fugit odit dolores veritatis odio possimus
+      eligendi voluptatem tenetur doloribus voluptates. Quis dolorem odio
+      numquam. Ad quae, voluptate reprehenderit sunt placeat fugit temporibus
+      amet quasi modi doloremque voluptatum quas voluptates minima nesciunt
+      tenetur incidunt corrupti obcaecati eum? Dolor dignissimos error explicabo
+      debitis perferendis hic. Molestias ipsum perspiciatis quos nemo,
+      laboriosam distinctio totam. Expedita, laborum. Pariatur blanditiis
+      provident, placeat doloremque ut voluptatum deserunt veniam nihil
+      voluptates fuga accusantium cumque quod reiciendis aspernatur facere ipsa
+      officiis nisi repellat! Commodi fugiat expedita alias pariatur voluptate
+      aut beatae sequi tenetur totam temporibus explicabo animi, doloribus
+      magnam, mollitia minus? Quia corrupti, beatae suscipit vel commodi facilis
+      harum nulla adipisci aspernatur eum quas totam quaerat fuga eligendi atque
+      porro iusto, debitis voluptatem libero dicta nostrum laborum ducimus
+      temporibus laudantium! Itaque exercitationem asperiores quo, dolores
+      ducimus alias amet vitae quos? Molestiae neque debitis doloribus vitae. Ad
+      distinctio perferendis molestias necessitatibus, saepe, vero vel commodi,
+      rerum laborum error laudantium ut cupiditate hic? Impedit cupiditate
+      quibusdam necessitatibus officiis explicabo cumque vitae obcaecati,
+      placeat dolor a nobis blanditiis nihil modi maiores sed ut eligendi
+      voluptates aliquam consequuntur! Impedit inventore, ab facilis omnis
+      magnam quia recusandae dolorem, culpa unde optio nulla vero deserunt
+      perspiciatis minima velit, repellendus debitis vitae perferendis
+      consequatur ut amet quos. Odio dolore accusamus autem hic labore, ex
+      nostrum, pariatur dicta blanditiis omnis ad, quos porro itaque nesciunt
+      voluptatem nam? Aliquam ipsa aliquid nobis? Nemo modi alias ea, totam
+      expedita quibusdam officia obcaecati harum impedit officiis! Dolores
+      libero temporibus molestiae iure ipsam soluta blanditiis reprehenderit
+      placeat, sit ex fugit autem doloremque omnis voluptatem assumenda eveniet
+      perspiciatis consequatur facere quibusdam dicta. Sunt similique sequi
+      ratione ipsam adipisci illo id atque repellendus cumque nihil?
+      Consequuntur voluptate totam, sequi laboriosam velit quasi temporibus
+      illum nemo odit provident repellendus at.
+    </p>
+  </body>
+</html>
