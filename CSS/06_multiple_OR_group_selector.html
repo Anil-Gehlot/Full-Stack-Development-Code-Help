@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* selecting multiple tag */
+        table,td,th{
+            border: 3px solid orange;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+
+
+        <!-- caption tag specifies the caption ot title for out table. -->
+        <caption>This is my First Table</caption>
+
+        <thead>
+            <tr>
+                <th>Student Id</th>
+                <th>Student name</th>
+                <th>Gender</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td>BIll</td>
+                <td>Male</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>John</td>
+                <td>Male</td>
+                <td rowspan="3">17</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>Babbar</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>Bill</td>
+                <td>Male</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+</body>
+</html>
