@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* text shadow */
+        #a{
+            text-shadow: 3px 3px red;
+        }
+
+        #b{
+            /* with blur */
+            text-shadow: 3px 3px 4px green;
+        }
+
+        #c{
+            text-shadow: 40px 20px 2px tomato, 2px 3px 4px darkorchid;
+        }
+
+        p{
+            border: 2px dotted black;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+            padding: 80px;
+            background-color: orange;
+            margin-top: 40mm;
+            margin-left: 20mm;
+
+            /* box shadow : default color is text color*/
+            box-shadow: 10px 10px 2px violet, -10px -10px;
+        }
+
+
+        div{
+
+            border: 2px dotted black;
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+            padding: 60px;
+            background-color: orange;
+            margin-top: 40mm;
+            margin-left: 20mm;
+
+            box-shadow: 3px 3px,-3px -3px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1 id="a">1st Text For Shadow.</h1>
+    <h1 id="b">2nd Text For Shadow.</h1>
+    <h1 id="c">3rd Text For Shadow.</h1>
+
+    <p>This is a box</p>
+
+    <div>ADDING BORDER USING SHADOW</div>
+    
+</body>
+</html>
