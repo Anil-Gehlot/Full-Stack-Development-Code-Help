@@ -1,0 +1,43 @@
+
+<!-- A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element.
+    For example ,: hover can be used to change a button's color when the user's pointer hovers over it. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Selector</title>
+
+    <style>
+        /* pseudo class selector by selecting element tag. */
+        p:hover{
+            color: blue;
+        }
+
+
+        /* pseudo class selector by selecting class. */
+        .A1:hover{
+            background-color: brown;
+        }
+        
+        /* pseudo class selector by selecting id. */
+        #A2:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius recusandae nesciunt quidem, facilis consectetur consequatur voluptas harum, aperiam quos aspernatur sit inventore unde numquam qui ab non natus ipsam! Ducimus.4</p>
+    <br>
+    
+    <input type="submit" value="submit" class="A1">
+    <br>
+    <br>
+
+    <button id="A2">Reset</button>
+    
+</body>
+</html>
