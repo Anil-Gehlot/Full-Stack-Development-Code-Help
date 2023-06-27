@@ -13,38 +13,55 @@
     <style>
         .container{
             border: 1px solid green;
-            height: 400px;
-            display: flex;
-            flex-direction: row;
-            /* gap: 10px; */
-            /* flex-direction: column; */
-            /* flex-direction: row-reverse;
-            flex-direction: column-reverse; */
+            width: 50%;
+            height: 600px;
 
-            flex-wrap: wrap;
-            /* flex-wrap: nowrap; default */
+            display: flex;
+             /* gap: 10px; */
+
+            /* flex-direction properties. row is default */
+            /* flex-direction: row;   */
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */ 
+
+
+            /* wrap:display: The flex items break into multiple lines.; */
+            /* flex-wrap:wrap; */
+            /* flex-wrap: nowrap;  */      /* default */
             /* flex-wrap: wrap-reverse; */
 
-            /* justify-content: flex-start; */
-            /* justify-content: flex-end;
+            /* justify content is used to align the content with respect to main axis. */
+            /* justify-content: flex-start;
+            justify-content: flex-end;
             justify-content: center;
             justify-content: space-around;
             justify-content: space-evenly;
-            justify-content: space-between; */
+            justify-content: space-between;  */
 
-            align-items: center;
 
-            align-content: flex-start;
-            align-content: center;
-            align-content: space-between;
-            align-content: space-around;
-            align-content: space-evenly;
-        }
+            /* it works same as justify content, But it align items with respect to cross axis. */
+            /* align-items: center; */
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+            /* align-items: normal; */
+            
+            
+            /* it also works same as justify content but it is mainly used to handle the space between rows of flex. */
+            /* align-content: flex-start; */
+            /* align-content: center; */
+            /* align-content: space-between; */
+            /* align-content: space-around; */
+            /* align-content: space-evenly;  */
+        } 
 
         .box{
             border: 1px solid brown;
+            height: 100px;
             width: 100px;
             background-color: aqua;
+            margin: 2px;
+
         }
     </style>
 
