@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            height: 50%;
+            width: 100%;
+            border: 10px solid blueviolet;
+            background-color: chartreuse;
+
+            display: grid;
+
+            grid-template-columns: 150px repeat(1,1fr);
+            grid-template-rows: 100px repeat(1, 1fr) 100px;
+        }
+        .item{
+            border: 1px solid red;
+        }
+
+        #first{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+
+
+        #fourth{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class='container'>
+
+        <header class="item" id="first">hello ju this is Header</header>
+        <p class="item" id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, neque.</p>
+
+        <p class="item" id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat unde qui quo nesciunt suscipit, labore veritatis illum amet voluptatum eligendi minus esse quod! Quas nulla cumque rem officiis esse voluptatum voluptatibus in vitae nihil, laboriosam officia. Perferendis sed, nesciunt qui aperiam ex reprehenderit, non, saepe quasi nostrum libero reiciendis natus quod voluptate ad deleniti sunt culpa excepturi ea nihil doloremque. Illum, odit nam tenetur tempore, architecto, voluptatem voluptates nihil dolorum laboriosam aspernatur vero? Reiciendis perspiciatis esse assumenda non! Rem quod provident sit quibusdam quos ea asperiores ipsum omnis vero ducimus similique ullam error laudantium debitis iste, doloremque perferendis velit libero.</p>
+
+        <footer class="item" id="fourth">hello i m footer</footer>
+
+    </div>
+    
+</body>
+</html>
