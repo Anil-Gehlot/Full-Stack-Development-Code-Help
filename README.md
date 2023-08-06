@@ -25,14 +25,14 @@ To get started with the content in this repository, follow these steps:
 
 Explore the different folders to find code snippets, exercises, and projects related to full stack development.
 
-##Learning Progress
+## Learning Progress
 
 I'm currently in the learning stage of my full stack development journey. As I progress, I'll be updating this repository with code examples, exercises, and insights from my studies. Feel free to browse through the folders to see the topics I've covered so far.
 
-##Projects
+## Projects
 
 As part of my learning process, I'll be working on various projects that showcase the practical application of the concepts I'm learning. Each project will have its own dedicated folder and README file explaining the project's purpose, technologies used, and how to run it.
 
-##Contributing
+## Contributing
 
 While this repository primarily focuses on my personal learning journey, I welcome suggestions, tips, and advice from fellow learners and developers. If you notice any errors or have insights to share, feel free to open an issue or pull request.
